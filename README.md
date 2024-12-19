@@ -24,5 +24,4 @@ Binaries & IoT Range Range
 	172.25.120.100	binwalk -e → grep -nir anonymous
 	172.25.120.210	 gdb /bin/bash → b main → info registers
 	172.25.120.220	
-	others : gdb binaries-two → find /bin/bash	
-![image](https://github.com/user-attachments/assets/017a1d1b-4e8c-4176-a066-7e951f34ad39)
+	others : gdb binaries-two → find /bin/bash
