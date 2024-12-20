@@ -188,13 +188,16 @@
         ```
         
     - 設置參數：
-  	2io    
+  	[2io]    
         ```bash
         set RHOST <目標IP>
         set PAYLOAD <有效載荷> grep -nir
         
         ```
-        binwalk -e 
+        .210 binwalk -e
+      	```
+       bash vim RootFlag210.txt BinariesRoot-210-3345 cat RootFlag210.txt | md5sum ```
+
     - 執行攻擊：
         gdb file level-teo binary
         ```bash
@@ -203,6 +206,8 @@
         ```
         b main
       	info registers
+	
+
 - **SQL 注入測試：**
     - 使用 SQLMap 測試 SQL 注入：
         
